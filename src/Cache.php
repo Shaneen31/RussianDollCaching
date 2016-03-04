@@ -8,11 +8,19 @@ class Cache
 
     private $cache;
 
+    /**
+     * Cache constructor.
+     * @param CacheInterface $cache
+     */
     public function __construct(CacheInterface $cache)
     {
         $this->cache = $cache;
     }
 
+    /**
+     * @param $keys
+     * @return string
+     */
     private function hashKeys($keys)
     {
         if(is_array($keys)){
@@ -26,6 +34,10 @@ class Cache
         }
     }
 
+    /**
+     * @param $key
+     * @return string
+     */
     private function hashKey($key)
     {
         if(is_a($key, 'Illuminate\\Database\\Eloquent\\Model')) {
@@ -35,6 +47,10 @@ class Cache
         }
     }
 
+    /**
+     * @param $keys
+     * @param callable $callback
+     */
     public function cache($keys, Callable $callback)
     {
         $key = $this->hashKeys($keys);
