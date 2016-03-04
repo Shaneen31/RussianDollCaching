@@ -1,0 +1,17 @@
+{
+  "name": "Shaneen31/RussianDollCaching",
+  "description": "description_text",
+  "keywords": ["cache", "caching", "Fragment", "Russian doll","redis"],
+  "minimum-stability": "stable",
+  "homepage": "http://github.com/shaneen31/russiandollcaching",
+  "support": {
+    "issues": "https://github.com/shaneen31/russiandollcaching/issues"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "shaneen31",
+      "email": "email@example.com"
+    }
+  ]
+}
