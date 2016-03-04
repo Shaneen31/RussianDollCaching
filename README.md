@@ -31,7 +31,7 @@ Cascade Caching
 ```php
 <?php
 use RussianDollCaching\Cache;
-use \RussianDollCaching\DiskCache;
+use RussianDollCaching\DiskCache;
 
 $cache = new Cache(new DiskCache());
 ?>

@@ -1,5 +1,5 @@
 {
-  "name": "shaneen31/RussianDollCaching",
+  "name": "shaneen31/russian-doll-caching",
   "description": "description_text",
   "keywords": ["cache", "caching", "Fragment", "Russian doll","redis"],
   "minimum-stability": "stable",
