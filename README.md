@@ -6,6 +6,7 @@ Version 0.2.0
 - Cache single objects.
 - Cache one big object made of smaller ones (Cascade Caching).
 - Cache on disk.
+- Cache with [Redis](http://redis.io/).
 
 ### How To Use ###
 
