@@ -1,5 +1,5 @@
 # Russian Doll Caching (Fragmented Caching)
-Version 0.1.0
+Version 0.1.1
 
 ### Main Features ###
 - Allow caching fragment of pages.
