@@ -7,10 +7,21 @@
   "support": {
     "issues": "https://github.com/shaneen31/russiandollcaching/issues"
   },
-  "license": "GNU/GPL V3",
+  "license": "GPL-3.0+",
   "authors": [
     {
       "name": "shaneen31"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RussianDollCaching\\": "src/"
+    }
+  }
 }
