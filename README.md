@@ -40,7 +40,7 @@ In your model
 ```php
 
 public static function lastUpdated(){
-        return self::orderBy('updated_at', 'DEST')->select('id', 'updated_at')->first();
+        return self::orderBy('updated_at', 'DESC')->select('id', 'updated_at')->first();
     }
     
 ```
